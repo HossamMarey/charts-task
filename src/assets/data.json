@@ -1,0 +1,494 @@
+{
+  "status": true,
+  "message": "success",
+  "result": {
+    "client_name": "tst",
+    "leaks_total": 282,
+    "leaks_stats": {
+      "new": 282,
+      "under_investigation": 0,
+      "resolved": 0,
+      "removed": 0
+    },
+    "leaks_stats_months": [
+      {
+        "months": [
+          {
+            "month": 12,
+            "count": 99
+          }
+        ],
+        "year_total": 99,
+        "year": 2022
+      },
+      {
+        "months": [
+          {
+            "month": 1,
+            "count": 183
+          }
+        ],
+        "year_total": 183,
+        "year": 2023
+      }
+    ],
+    "logs_total": 89,
+    "logs_stats": {
+      "new": 89,
+      "under_investigation": 0,
+      "resolved": 0,
+      "removed": 0
+    },
+    "logs_stats_months": [
+      {
+        "months": [
+          {
+            "month": 1,
+            "count": 3
+          }
+        ],
+        "year_total": 3,
+        "year": 1970
+      },
+      {
+        "months": [
+          {
+            "month": 12,
+            "count": 2
+          },
+          {
+            "month": 3,
+            "count": 2
+          }
+        ],
+        "year_total": 4,
+        "year": 2021
+      },
+      {
+        "months": [
+          {
+            "month": 3,
+            "count": 2
+          },
+          {
+            "month": 10,
+            "count": 5
+          },
+          {
+            "month": 11,
+            "count": 1
+          },
+          {
+            "month": 6,
+            "count": 1
+          },
+          {
+            "month": 9,
+            "count": 2
+          }
+        ],
+        "year_total": 11,
+        "year": 2022
+      },
+      {
+        "months": [
+          {
+            "month": 3,
+            "count": 5
+          },
+          {
+            "month": 1,
+            "count": 2
+          },
+          {
+            "month": 2,
+            "count": 56
+          }
+        ],
+        "year_total": 63,
+        "year": 2023
+      }
+    ],
+    "market_stats_months": [
+      {
+        "year": null,
+        "counts": [
+          {
+            "month": null,
+            "count": 1
+          }
+        ],
+        "total": 1
+      },
+      {
+        "year": 2022,
+        "counts": [
+          {
+            "month": 2,
+            "count": 32
+          },
+          {
+            "month": 3,
+            "count": 42
+          },
+          {
+            "month": 9,
+            "count": 109
+          },
+          {
+            "month": 1,
+            "count": 44
+          },
+          {
+            "month": 12,
+            "count": 253
+          },
+          {
+            "month": 5,
+            "count": 22
+          },
+          {
+            "month": 10,
+            "count": 124
+          },
+          {
+            "month": 8,
+            "count": 80
+          },
+          {
+            "month": 7,
+            "count": 67
+          },
+          {
+            "month": 6,
+            "count": 53
+          },
+          {
+            "month": 11,
+            "count": 143
+          },
+          {
+            "month": 4,
+            "count": 19
+          }
+        ],
+        "total": 988
+      },
+      {
+        "year": 2023,
+        "counts": [
+          {
+            "month": 3,
+            "count": 279
+          },
+          {
+            "month": 2,
+            "count": 280
+          },
+          {
+            "month": 1,
+            "count": 375
+          },
+          {
+            "month": 4,
+            "count": 171
+          }
+        ],
+        "total": 1105
+      },
+      {
+        "year": 2024,
+        "counts": [
+          {
+            "month": 5,
+            "count": 1
+          }
+        ],
+        "total": 1
+      }
+    ],
+    "market_total": 2095,
+    "market_stats": {
+      "new": 2095,
+      "under_investigation": 0,
+      "resolved": 0,
+      "removed": 0
+    },
+    "domains_total": 2,
+    "domains_list": [
+      {
+        "id": 5,
+        "status": 7,
+        "url": "paymob.com",
+        "owner_id": 15,
+        "created_at": "2023-04-01T23:47:04.000000Z",
+        "updated_at": "2023-04-02T08:56:46.000000Z",
+        "readableStatus": "Finished Delete"
+      },
+      {
+        "id": 8,
+        "status": 1,
+        "url": "fawry.com",
+        "owner_id": 15,
+        "created_at": "2023-04-02T10:26:09.000000Z",
+        "updated_at": "2023-04-18T22:21:27.000000Z",
+        "readableStatus": "Approved Add"
+      }
+    ],
+    "members_total": 13,
+    "members_list": [
+      {
+        "id": 15,
+        "first_name": "Owner2",
+        "last_name": "Owner2",
+        "email": "owner@paymob.com",
+        "phone": "557953207955",
+        "role": 3,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:04.000000Z",
+        "updated_at": "2023-04-09T02:11:06.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Owner2 Owner2"
+      },
+      {
+        "id": 20,
+        "first_name": "Team Leader",
+        "last_name": "Team Leader",
+        "email": "team_leader@paymob.com",
+        "phone": "492403614090",
+        "role": 4,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:04.000000Z",
+        "updated_at": "2023-04-01T23:47:04.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Leader Team Leader"
+      },
+      {
+        "id": 65,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member0@paymob.com",
+        "phone": "1525949872979",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:09.000000Z",
+        "updated_at": "2023-04-01T23:47:09.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 66,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member1@paymob.com",
+        "phone": "226552929594",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:09.000000Z",
+        "updated_at": "2023-04-01T23:47:09.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 67,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member2@paymob.com",
+        "phone": "1124354579775",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:09.000000Z",
+        "updated_at": "2023-04-01T23:47:09.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 68,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member3@paymob.com",
+        "phone": "673907783588",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:09.000000Z",
+        "updated_at": "2023-04-01T23:47:09.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 69,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member4@paymob.com",
+        "phone": "1673265853236",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:09.000000Z",
+        "updated_at": "2023-04-01T23:47:09.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 70,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member5@paymob.com",
+        "phone": "1374628684839",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:09.000000Z",
+        "updated_at": "2023-04-01T23:47:09.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 71,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member6@paymob.com",
+        "phone": "254234010348",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:09.000000Z",
+        "updated_at": "2023-04-01T23:47:10.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 72,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member7@paymob.com",
+        "phone": "771325145151",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:10.000000Z",
+        "updated_at": "2023-04-01T23:47:10.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 73,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member8@paymob.com",
+        "phone": "1369031912875",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:10.000000Z",
+        "updated_at": "2023-04-01T23:47:10.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 74,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member9@paymob.com",
+        "phone": "835251055489",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:10.000000Z",
+        "updated_at": "2023-04-01T23:47:10.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      },
+      {
+        "id": 75,
+        "first_name": "Team Member",
+        "last_name": "Team Member",
+        "email": "team_member10@paymob.com",
+        "phone": "1061043291629",
+        "role": 5,
+        "mfa_enabled": null,
+        "email_verified_at": null,
+        "created_at": "2023-04-01T23:47:10.000000Z",
+        "updated_at": "2023-04-01T23:47:10.000000Z",
+        "current_team_id": 5,
+        "status": 1,
+        "profile_completion": 1,
+        "fullname": "Team Member Team Member"
+      }
+    ],
+    "third_party_emails_total": 0,
+    "third_party_emails_stats": {
+      "pending_add": 0,
+      "approved_add": 0,
+      "declined_add": 0,
+      "done_add": 0,
+      "pending_delete": 0,
+      "approved_delete": 0,
+      "declined_delete": 0,
+      "done_delete": 0
+    },
+    "third_party_emails_requests_total": 0,
+    "third_party_emails_requests_stats": {
+      "pending_add": 0,
+      "approved_add": 0,
+      "declined_add": 0,
+      "done_add": 0,
+      "pending_delete": 0,
+      "approved_delete": 0,
+      "declined_delete": 0,
+      "done_delete": 0
+    },
+    "third_party_domains_total": 0,
+    "third_party_domains_stats": {
+      "pending_add": 0,
+      "approved_add": 0,
+      "declined_add": 0,
+      "done_add": 0,
+      "pending_delete": 0,
+      "approved_delete": 0,
+      "declined_delete": 0,
+      "done_delete": 0
+    },
+    "third_party_domains_requests_total": 0,
+    "third_party_domains_requests_stats": {
+      "pending_add": 0,
+      "approved_add": 0,
+      "declined_add": 0,
+      "done_add": 0,
+      "pending_delete": 0,
+      "approved_delete": 0,
+      "declined_delete": 0,
+      "done_delete": 0
+    }
+  }
+}

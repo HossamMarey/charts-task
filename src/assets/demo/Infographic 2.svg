@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-7 {
+        fill: #f3effe;
+      }
+
+      .cls-8 {
+        font-size: 9.95px;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-9 {
+        font-size: 11.03px;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 0 3 3;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        stroke: #b3b3b3;
+        stroke-width: .5px;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #785ed9;
+      }
+
+      .cls-11 {
+        fill: #785ed9;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 0 0 3.01 3.01;
+      }
+
+      .cls-10 {
+        font-size: 17.58px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-7" cx="1079.44" cy="414.56" r="98"/>
+  <circle class="cls-7" cx="1121.61" cy="565.86" r="5.97"/>
+  <circle class="cls-11" cx="989.93" cy="565.86" r="5.97"/>
+  <path class="cls-11" d="M1079.44,414.56v-98c53.76,0,98,44.24,98,98s-44.24,98-98,98c-45.47,0-85.26-31.65-95.49-75.95l95.49-22.05Z"/>
+  <polygon class="cls-1" points="113.33 554.58 183.64 492.01 252.02 431.11 323.89 367.11 393.5 520.5 463.67 461.17 533.83 398.5 602.83 367.11 673.67 350.67 673.33 586.33 113.33 586.33 113.33 554.58"/>
+  <g>
+    <g>
+      <line class="cls-4" x1="113.33" y1="274.33" x2="113.33" y2="275.83"/>
+      <line class="cls-2" x1="113.33" y1="278.83" x2="113.33" y2="583.33"/>
+      <line class="cls-4" x1="113.33" y1="584.83" x2="113.33" y2="586.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="225.33" y1="274.33" x2="225.33" y2="275.83"/>
+      <line class="cls-2" x1="225.33" y1="278.83" x2="225.33" y2="583.33"/>
+      <line class="cls-4" x1="225.33" y1="584.83" x2="225.33" y2="586.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="337.33" y1="274.33" x2="337.33" y2="275.83"/>
+      <line class="cls-2" x1="337.33" y1="278.83" x2="337.33" y2="583.33"/>
+      <line class="cls-4" x1="337.33" y1="584.83" x2="337.33" y2="586.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="449.33" y1="274.33" x2="449.33" y2="275.83"/>
+      <line class="cls-2" x1="449.33" y1="278.83" x2="449.33" y2="583.33"/>
+      <line class="cls-4" x1="449.33" y1="584.83" x2="449.33" y2="586.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="561.33" y1="274.33" x2="561.33" y2="275.83"/>
+      <line class="cls-2" x1="561.33" y1="278.83" x2="561.33" y2="583.33"/>
+      <line class="cls-4" x1="561.33" y1="584.83" x2="561.33" y2="586.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="673.33" y1="274.33" x2="673.33" y2="275.83"/>
+      <line class="cls-2" x1="673.33" y1="278.83" x2="673.33" y2="583.33"/>
+      <line class="cls-4" x1="673.33" y1="584.83" x2="673.33" y2="586.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="113.33" y1="430.33" x2="114.83" y2="430.33"/>
+      <line class="cls-6" x1="117.85" y1="430.33" x2="670.66" y2="430.33"/>
+      <line class="cls-4" x1="672.17" y1="430.33" x2="673.67" y2="430.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="113.33" y1="352.33" x2="114.83" y2="352.33"/>
+      <line class="cls-6" x1="117.85" y1="352.33" x2="670.66" y2="352.33"/>
+      <line class="cls-4" x1="672.17" y1="352.33" x2="673.67" y2="352.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="113.33" y1="274.33" x2="114.83" y2="274.33"/>
+      <line class="cls-6" x1="117.85" y1="274.33" x2="670.66" y2="274.33"/>
+      <line class="cls-4" x1="672.17" y1="274.33" x2="673.67" y2="274.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="113.33" y1="586.33" x2="114.83" y2="586.33"/>
+      <line class="cls-6" x1="117.85" y1="586.33" x2="670.66" y2="586.33"/>
+      <line class="cls-4" x1="672.17" y1="586.33" x2="673.67" y2="586.33"/>
+    </g>
+    <g>
+      <line class="cls-4" x1="113.33" y1="508.33" x2="114.83" y2="508.33"/>
+      <line class="cls-6" x1="117.85" y1="508.33" x2="670.66" y2="508.33"/>
+      <line class="cls-4" x1="672.17" y1="508.33" x2="673.67" y2="508.33"/>
+    </g>
+  </g>
+  <text class="cls-8" transform="translate(99.64 584.56)"><tspan x="0" y="0">0</tspan></text>
+  <text class="cls-8" transform="translate(97.84 607.4)"><tspan x="0" y="0">13 Jan</tspan></text>
+  <text class="cls-8" transform="translate(211 607.4)"><tspan x="0" y="0">13 Feb</tspan></text>
+  <text class="cls-10" transform="translate(80.17 241.38)"><tspan x="0" y="0">Logs Among Months</tspan></text>
+  <text class="cls-10" transform="translate(888.52 241.38)"><tspan x="0" y="0">Logs according to type of malware</tspan></text>
+  <text class="cls-9" transform="translate(1065.83 460.49)"><tspan x="0" y="0">87.3%</tspan></text>
+  <text class="cls-9" transform="translate(1003.6 569.86)"><tspan x="0" y="0">Redline</tspan></text>
+  <text class="cls-9" transform="translate(1137.46 569.86)"><tspan x="0" y="0">Racoon</tspan></text>
+  <text class="cls-9" transform="translate(1016.11 388.26)"><tspan x="0" y="0">12.7%</tspan></text>
+  <text class="cls-8" transform="translate(317.17 607.4)"><tspan x="0" y="0">13 March</tspan></text>
+  <text class="cls-8" transform="translate(433.1 607.4)"><tspan x="0" y="0">13 April</tspan></text>
+  <text class="cls-8" transform="translate(546.43 607.4)"><tspan x="0" y="0">13 May</tspan></text>
+  <text class="cls-8" transform="translate(642.07 607.4)"><tspan x="0" y="0">13 June</tspan></text>
+  <text class="cls-8" transform="translate(94.11 510.89)"><tspan x="0" y="0">25</tspan></text>
+  <text class="cls-8" transform="translate(94.11 433)"><tspan x="0" y="0">50</tspan></text>
+  <text class="cls-8" transform="translate(94.11 355.07)"><tspan x="0" y="0">75</tspan></text>
+  <text class="cls-8" transform="translate(88.58 278.07)"><tspan x="0" y="0">100</tspan></text>
+  <circle class="cls-3" cx="113.33" cy="554.58" r="2.46"/>
+  <polyline class="cls-5" points="115.18 552.97 183.64 492.01 252.02 431.11 323.89 367.11 393.5 520.5 463.67 461.17 533.83 398.5 602.83 367.11 673.67 350.67"/>
+  <circle class="cls-3" cx="183.64" cy="492.01" r="2.46"/>
+  <circle class="cls-3" cx="252.02" cy="431.11" r="2.46"/>
+  <circle class="cls-3" cx="323.45" cy="367.54" r="2.46"/>
+  <circle class="cls-3" cx="393.5" cy="520.54" r="2.46"/>
+  <circle class="cls-3" cx="463.5" cy="461.7" r="2.46"/>
+  <circle class="cls-3" cx="534" cy="398.2" r="2.46"/>
+  <circle class="cls-3" cx="604.17" cy="366.7" r="2.46"/>
+  <circle class="cls-3" cx="673.17" cy="350.87" r="2.46"/>
+</svg>

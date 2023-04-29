@@ -10,7 +10,7 @@ h1.text-center {
 }
 .chart__sections {
   background-color: #fff;
-  max-width: 500px;
+  max-width: 600px;
   padding: 2rem 1.2rem;
   margin: 0 auto;
   /* display: grid;

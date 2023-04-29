@@ -1,9 +1,10 @@
-import React from "react";
 import DataBreachMonth from "./sections/DataBreachMonth";
 import DataBreachSource from "./sections/DataBreachSource";
 import LogsMonths from "./sections/LogsMonths";
 import LogsMalwareTypes from "./sections/LogsMalwareTypes";
 import WorldMap from "./sections/WorldMap";
+
+import React from "react";
 
 import chartsDataJson from "../assets/data.json";
 

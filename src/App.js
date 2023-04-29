@@ -7,15 +7,20 @@ import React from 'react';
 
 const generatePdf = async (componentRef) => {
   const canvas = await html2canvas(componentRef.current, { scale: 2 });
+  console.log('canvas ssssssssss', canvas.height, canvas.width)
   const imgData = canvas.toDataURL('image/png');
   const pdf = new jsPDF('p', 'mm', 'a4');
+  // 2480 x 3508
   const imgWidth = 210;
   const pageHeight = 297;
+
   const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+
   let position = 0;
   pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
   position -= pageHeight;
-  while (position > -(canvas.height * 2)) {
+  while (position > -(canvas.height / 6)) {
     pdf.addPage();
     pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
     position -= pageHeight;

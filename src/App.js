@@ -1,29 +1,50 @@
 import './App.css';
-import DataBreachMonth from "./components/sections/DataBreachMonth";
-import DataBreachSource from "./components/sections/DataBreachSource";
-import LogsMalwareTypes from "./components/sections/LogsMalwareTypes";
-import LogsMonths from "./components/sections/LogsMonths";
-import WorldMap from "./components/sections/WorldMap";
+import PdfContent from "./components/PdfContent";
 
-import chartsDataJson from "./assets/data.json"
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
+import React from 'react';
 
-// convert json to js object
-const chartsData = JSON.parse(JSON.stringify(chartsDataJson))
+const generatePdf = async (componentRef) => {
+  const canvas = await html2canvas(componentRef.current, { scale: 2 });
+  const imgData = canvas.toDataURL('image/png');
+  const pdf = new jsPDF('p', 'mm', 'a4');
+  const imgWidth = 210;
+  const pageHeight = 297;
+  const imgHeight = (canvas.height * imgWidth) / canvas.width;
+  let position = 0;
+  pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+  position -= pageHeight;
+  while (position > -(canvas.height * 2)) {
+    pdf.addPage();
+    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+    position -= pageHeight;
+  }
+  pdf.save('my-chart.pdf');
+};
+
+
+
+
+
 
 function App() {
 
+  const contentRef = React.useRef(null);
+
   return (
     <div  >
-      <h1 className="text-center"> Charts </h1>
-      <div className="chart__sections">
-        <DataBreachMonth data={chartsData?.result?.leaks_stats_months} />
-        <DataBreachSource data={chartsData?.result?.leaks_stats_months} />
-        <LogsMonths data={chartsData?.result?.logs_stats_months} />
-        <LogsMalwareTypes data={chartsData?.result?.logs_stats_months} />
-        <div className="span-full">
-          <WorldMap />
-        </div>
+      <div className="text-center m_title">
+        <h1 > Charts </h1>
+        {contentRef && (
+          <button className="pdf-btn" onClick={() => generatePdf(contentRef)}> GENERATE PDF </button>
+        )}
       </div>
+
+      <div ref={contentRef}>
+        <PdfContent />
+      </div>
+
     </div>
   );
 }
